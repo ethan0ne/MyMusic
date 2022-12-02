@@ -1,12 +1,12 @@
 [
-    { "name": "只有我和你的地方 - Single", "author": "邓紫棋",  "img": "/img/5.webp" },
-    { "name": "少年", "author": "周华健",  "img": "/img/6.webp" },
-    { "name": "Cruel - Single", "author": "Jackson Wang",  "img": "/img/7.webp" },
-    { "name": "call me 90", "author": "Chick en Chicks",  "img": "/img/8.webp" },
-    { "name": "姚中二", "author": "MC HotDog",  "img": "/img/9.webp" },
-    { "name": "Alien", "author": "焦迈奇",  "img": "/img/10.webp" },
-    { "name": "You Jump, I Jump", "author": "周震南",  "img": "/img/11.webp" },
-    { "name": "月感", "author": "Fishdoll",  "img": "/img/12.webp" },
-    { "name": "舞象之年", "author": "时代少年团",  "img": "/img/13.webp" },
-    { "name": "假如", "author": "假如",  "img": "/img/14.webp" }
+    { "name": "只有我和你的地方 - Single", "author": "邓紫棋",  "img": "img/5.webp" },
+    { "name": "少年", "author": "周华健",  "img": "img/6.webp" },
+    { "name": "Cruel - Single", "author": "Jackson Wang",  "img": "img/7.webp" },
+    { "name": "call me 90", "author": "Chick en Chicks",  "img": "img/8.webp" },
+    { "name": "姚中二", "author": "MC HotDog",  "img": "img/9.webp" },
+    { "name": "Alien", "author": "焦迈奇",  "img": "img/10.webp" },
+    { "name": "You Jump, I Jump", "author": "周震南",  "img": "img/11.webp" },
+    { "name": "月感", "author": "Fishdoll",  "img": "img/12.webp" },
+    { "name": "舞象之年", "author": "时代少年团",  "img": "img/13.webp" },
+    { "name": "假如", "author": "假如",  "img": "img/14.webp" }
 ]
