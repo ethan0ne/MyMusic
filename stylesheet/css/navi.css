@@ -1,0 +1,307 @@
+.title_bar {
+    font-size: 16px;
+    font-weight: bold;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 10;
+    width: calc(100% - 260px);
+    margin-left: 260px;
+    height: 45px;
+    line-height: 45px;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-bottom: 0.5px solid rgb(217, 216, 216);
+    border-left: 0.5px solid rgb(217, 216, 216);
+    display: none;
+    flex-flow: nowrap;
+    justify-content: space-between;
+    padding: 0px 5px;
+    transition: background-color 0.3s;
+}
+
+.title_bar .button {
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: unset;
+    font-weight: unset;
+    padding: 8px 8px;
+    margin-top: 3px;
+    color: var(--theme_color);
+    border-radius: 5px;
+    height: 22px;
+    box-sizing: content-box;
+    transition: background-color 0.3s;
+}
+
+@media (any-hover: hover) {
+    .title_bar .button:hover {
+        background-color: var(--textButton_hover_bgc);
+    }
+}
+
+.title_bar .button:active {
+    background-color: var(--textButton_active_bgc);
+}
+
+.title_bar .button_large {
+    font-size: 22px;
+    padding: 8px 8px;
+    height: 23px;
+}
+
+.title_bar .title_bar_title {
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    text-align: center;
+    height: 45px;
+    line-height: 45px;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-weight: bold;
+    z-index: 11;
+    pointer-events: none;
+}
+
+.navi_bar {
+    position: fixed;
+    width: 100%;
+    height: 55px;
+    background-color: rgba(255, 255, 255, 0.8);
+    bottom: 0px;
+    left: 0px;
+    z-index: 10;
+    display: none;
+    flex-flow: nowrap;
+    justify-content: space-around;
+    border-top: 0.5px solid rgb(217, 216, 216);
+    transition: background-color 0.3s;
+}
+
+.navi_bar .item {
+    width: 55px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    text-align: center;
+    color: var(--secondary_color);
+}
+
+.navi_bar .item .iconfont {
+    font-size: 26px;
+    line-height: 35px;
+}
+
+.navi_bar .item .iconfont2 {
+    font-size: 30px;
+    line-height: 35px;
+}
+
+.navi_bar .item .iconfont3 {
+    font-size: 24px;
+    line-height: 35px;
+}
+
+.navi_bar .item .text {
+    font-size: 12px;
+}
+
+.navi_bar .active {
+    color: var(--theme_color);
+}
+
+.navi_bar_left {
+    position: fixed;
+    width: 260px;
+    height: 100%;
+    background-color: rgb(249, 249, 249);
+    top: 0px;
+    left: 0px;
+    z-index: 10;
+    display: flex;
+    flex-flow: column nowrap;
+    border-right: 0.5px solid rgb(217, 216, 216);
+    transition: background-color 0.3s, border 0.3s;
+}
+
+.navi_bar_left .navi_bar_top {
+    --marginTop: 40px;
+    width: 100%;
+    height: calc(38px + var(--marginTop));
+    padding: var(--marginTop) 15px 0px 15px;
+    font-size: 24px;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+.navi_bar_left .content {
+    width: 100%;
+    padding: 9px 15px 0px 15px;
+    font-size: 16px;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 5px;
+    box-sizing: border-box;
+}
+
+.navi_bar_left .content .item {
+    align-items: center;
+    border-radius: 6px;
+    box-sizing: content-box;
+    -moz-column-gap: 8px;
+    column-gap: 8px;
+    display: flex;
+    height: 30px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+.navi_bar_left .content .item .iconfont {
+    color: var(--theme_color);
+}
+
+.navi_bar_left .content .active {
+    background-color: var(--theme_color);
+    color: #fff;
+}
+
+.navi_bar_left .content .item .iconfont.active  {
+    color: #fff;
+}
+
+.song_bar {
+    font-size: 16px;
+    font-weight: bold;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    z-index: 9;
+    width: calc(100% - 260px);
+    margin-left: 260px;
+    height: 55px;
+    line-height: 55px;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-top: 0.5px solid rgb(217, 216, 216);
+    border-left: 0.5px solid rgb(217, 216, 216);
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: space-between;
+    padding: 0px 5px;
+    transition: background-color 0.3s;
+}
+
+.song_bar .button {
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: unset;
+    font-weight: unset;
+    padding: 10px 10px;
+    margin-top: 3px;
+    color: var(--text_color);
+    border-radius: 5px;
+    height: 30px;
+    box-sizing: content-box;
+    transition: background-color 0.3s;
+}
+
+.song_bar>.left {
+    display: flex;
+    flex-flow: nowrap;
+    /* margin-left: 5px; */
+}
+
+.song_bar>.right {
+    display: flex;
+    flex-flow: nowrap;
+    /* margin-right: 5px; */
+}
+
+.song_bar>.left>.songImg {
+    flex: 0 0 45px;
+    width: 45px;
+    height: 45px;
+    margin-top: 5px;
+    background: url('/img/Midnight_3amEdition.webp') no-repeat center;
+    /* background-repeat: no-repeat;
+    background-position: center; */
+    background-size: cover; 
+    border-radius: 3px;
+}
+
+.song_bar>.left>.songtitle {
+    width: 100%;
+    font-size: 16px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    box-sizing: border-box;
+    margin-left: 10px;
+}
+
+@media (any-hover: hover) {
+    .song_bar .button:hover {
+        background-color: var(--textButton_hover_bgc);
+    }
+}
+
+.song_bar .button:active {
+    background-color: var(--textButton_active_bgc);
+}
+
+.song_bar .button_large {
+    font-size: 22px;
+    padding: 10px 10px;
+    height: 26px;
+}
+
+@media (max-width: 780px) {
+    .navi_bar {
+        display: flex;
+    }
+
+    .navi_bar_left {
+        display: none;   
+    }
+
+    .title_bar {
+        width: 100%;
+        margin-left: unset;
+        border-left: unset;
+    }
+
+    .song_bar {
+        bottom: 55px;
+        width: 100%;
+        margin-left: unset;
+        border-left: unset;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    .navi_bar {
+        background-color: rgba(37, 37, 38, 0.65);
+        border-top: 0.5px solid rgb(59, 59, 60);
+    }
+
+    .navi_bar_left {
+        background-color: rgb(37, 37, 38);
+        border-right: 0.5px solid rgb(59, 59, 60);
+    }
+
+    .title_bar {
+        background-color: rgba(37, 37, 38, 0.65);
+        border-bottom: 0.5px solid rgb(59, 59, 60);
+        border-left: 0.5px solid rgb(59, 59, 60);
+    }
+
+    .song_bar {
+        background-color: rgba(37, 37, 38, 0.65);
+        border-top: 0.5px solid rgb(59, 59, 60);
+        border-left: 0.5px solid rgb(59, 59, 60);
+    }
+}

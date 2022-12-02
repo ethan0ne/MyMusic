@@ -1,0 +1,33 @@
+{
+    "albumInfo": {
+        "name": "Midnights (3am Edition)",
+        "author": "Taylor Swift",
+        "moreInfo": "POP · 2022年",
+        "img": "/img/Midnight_3amEdition.webp", 
+        "time": "2022年10月21日",
+        "numAndSongTime": "20首歌曲、1小时9分钟",
+        "copyright": "℗ 2022 Taylor Swift"
+    },
+    "albumSongs": [
+        { "name": "Lavendar Haze", "time": "3:22" },
+        { "name": "Maroon", "time": "3:38" },
+        { "name": "Anti-Hero", "time": "3:20" },
+        { "name": "Snow On The Beach (feat. Lana Del Rey)", "time": "4:16" },
+        { "name": "You're On Your Own, Kid", "time": "3:14" },
+        { "name": "Midnight Rain", "time": "2:54" },
+        { "name": "Question...?", "time": "3:30" },
+        { "name": "Vigilante Shit", "time": "2:44" },
+        { "name": "Bejeweled", "time": "3:14" },
+        { "name": "Labyrinth", "time": "4:07" },
+        { "name": "Karma", "time": "3:24" },
+        { "name": "Sweet Nothing", "time": "3:08" },
+        { "name": "Mastermind", "time": "3:11" },
+        { "name": "The Great War", "time": "4:00" },
+        { "name": "Bigger Than The Whole Sky", "time": "3:38" },
+        { "name": "Paris", "time": "3:16" },
+        { "name": "High Infidelity", "time": "3:51" },
+        { "name": "Glitch", "time": "2:28" },
+        { "name": "Would've, Could’ve, Should've", "time": "4:20" },
+        { "name": "Dear Reader", "time": "3:45" }
+    ]
+}

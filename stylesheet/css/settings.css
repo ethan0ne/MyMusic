@@ -1,0 +1,61 @@
+.settingsItemFrame {
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: space-between;
+}
+
+.settingsItemFrame>.name {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.settingsItemFrame>.option {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+
+input[type="checkbox"] {
+    position: relative;
+    appearance: none;
+    background-color: rgb(196, 196, 196);
+    outline: none;
+    width: 40px;
+    height: 24px;
+    border-radius: 24px;
+    border: 2px solid rgb(196, 196, 196);
+    box-sizing: border-box;
+    margin: 0px;
+    transition: 300ms ease all;
+}
+
+input[type="checkbox"]::before {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    transform: scale(1);
+    border-radius: 20px;
+    transition: 300ms ease all;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+input:checked[type="checkbox"] {
+    background-color: rgb(100, 195, 102);
+    border-color: rgb(100, 195, 102);
+}
+
+input:checked[type="checkbox"]::before {
+    background-color: #fff;
+    left: 16px;
+}
+
+@media (prefers-color-scheme: dark) {
+    input[type="checkbox"] {
+        background: rgb(71, 71, 71);
+        border-color: rgb(71, 71, 71);
+    }
+}

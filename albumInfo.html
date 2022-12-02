@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="Pragma" content="no-cache">
+    <title>Music - 20001030222_谢宜轩</title>
+    <link rel="stylesheet" type="text/css" href="/stylesheet/css/iconfont.css">
+    <link rel="stylesheet" type="text/css" href="/stylesheet/css/main.css">
+    <link rel="stylesheet" type="text/css" href="/stylesheet/css/navi.css">
+    <link rel="stylesheet" type="text/css" href="/stylesheet/css/albumInfo.css">
+    <link rel="import" href="/navi.html" id="naviPage">
+</head>
+
+<body>
+    <div id="navi_frame"></div>
+    <div class="title_bar" id="title_bar">
+        <div class="title_bar_title" name="albumName"></div>
+        <button class="button" name="goIndex"><span class="iconfont icon-31fanhui1 titleBtn"></span>索引</button>
+    </div>
+    <div id="miniNowPlaying_frame"></div>
+    <div class="main_content">
+        <div class="title">
+            <div class="titleFrame">
+                <div class="titleText">
+                    <button class="textBtn" name="goIndex"><span class="iconfont icon-31fanhui1"></span></button>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+        <div class="block">
+            <div class="head">
+                <div class="img" id="albumImg"></div>
+                <div class="rightFrame">
+                    <div class="btns">
+                        <button class="main_btn"><span class="iconfont icon-playfill"></span><span>播放</span></button>
+                        <button class="main_btn"><span class="iconfont icon-suijibofang"></span><span>随机播放</span></button>
+                    </div>
+                    <div class="textFrame">
+                        <div class="title1" name="albumName"></div>
+                        <div class="title2" id="albumAuthor"></div>
+                        <div class="title3" id="albumMoreInfo"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="block">
+            <div class="list_ul2" id="albumSongs"></div>
+        </div>
+        <div class="block">
+            <div class="footer">
+                <div id="time"></div>
+                <div id="numAndSongTime"></div>
+                <div id="copyright"></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="/js/utils.js" type="text/javascript"></script>
+<script src="/js/navi.js" type="text/javascript"></script>
+<script src="/js/mininowplaying.js" type="text/javascript"></script>
+<script src="/js/common.js" type="text/javascript"></script>
+<script src="/js/extension.js" type="text/javascript"></script>
+<script>
+    naviInit();
+    titleBarInit();
+</script>
+<script src="/js/albumInfo.js" type="text/javascript"></script>
+</html>

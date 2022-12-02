@@ -1,0 +1,46 @@
+.searchFrame {
+    width: 100%;
+    padding: 0px 20px;
+    box-sizing: border-box;
+}
+
+.searchDataFrame {
+    display: flex;
+    width: 100%;
+    flex-flow: nowrap;
+}
+
+.searchDataFrame .imgFrame {
+    width: 64px;
+    height: 64px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 4px;
+}
+
+.searchDataFrame .img {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+.searchDataFrame .textFrame {
+    margin-left: 10px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+
+.searchDataFrame .textFrame .title1 {
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 24px;
+}
+
+.searchDataFrame .textFrame .title2 {
+    font-size: 12px;
+    line-height: 20px;
+}

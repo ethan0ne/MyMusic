@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="Pragma" content="no-cache">
+    <title>Music - 20001030222_谢宜轩</title>
+    <link rel="stylesheet" type="text/css" href="/stylesheet/css/iconfont.css">
+    <link rel="stylesheet" type="text/css" href="/stylesheet/css/main.css">
+    <link rel="stylesheet" type="text/css" href="/stylesheet/css/navi.css">
+    <link rel="stylesheet" type="text/css" href="/stylesheet/css/listenNow.css">
+</head>
+
+<body>
+    <div id="navi_frame"></div>
+    <div class="title_bar" id="title_bar">
+        <div class="title_bar_title">现在就听</div>
+        <button class="button" name="goIndex"><span class="iconfont icon-31fanhui1 titleBtn"></span>索引</button>
+        <div>
+            <button class="button button_large" name="settings"><span class="iconfont icon-shezhi-xianxing"></span></button>
+            <button class="button button_large" name="userLogin"><span class="iconfont icon-weibiaoti1"></span></button>
+        </div>
+    </div>
+    <div id="loginWindow"></div>
+    <div id="setingsWindow"></div>
+    <div id="miniNowPlaying_frame"></div>
+    <div class="main_content">
+        <div class="title">
+            <div class="titleFrame">
+                <div class="titleText">
+                    <button class="textBtn" name="goIndex"><span class="iconfont icon-31fanhui1"></span></button>
+                    <div>现在就听</div>
+                </div>
+                <div>
+                    <button class="textBtn textBtn_large" name="settings"><span class="iconfont icon-shezhi-xianxing"></span></button>
+                    <button class="textBtn textBtn_large" name="userLogin"><span class="iconfont icon-weibiaoti1"></span></button>
+                </div>
+            </div>
+        </div>
+        <div class="block">
+            <div class="blockTitle">精选推荐</div>
+            <div class="xscrollframe">
+                <div class="xscrollcontent" name="foryou"></div>
+            </div>
+        </div>
+        <div class="block">
+            <div class="blockTitle">空间音频C-Pop歌单</div>
+            <div class="xscrollframe">
+                <div class="xscrollcontent" name="SpatialAudioCPop"></div>
+            </div>
+        </div>
+        <div class="block">
+            <div class="blockTitle">探索大陆Z世代艺人</div>
+            <div class="xscrollframe">
+                <div class="xscrollcontent" name="MainlandZAuthor"></div>
+            </div>
+        </div>
+
+        <div class="block">
+            <div class="blockTitle">精选推荐</div>
+            <div class="xscrollframe">
+                <div class="xscrollcontent" name="foryou"></div>
+            </div>
+        </div>
+        <div class="block">
+            <div class="blockTitle">空间音频C-Pop歌单</div>
+            <div class="xscrollframe">
+                <div class="xscrollcontent" name="SpatialAudioCPop"></div>
+            </div>
+        </div>
+        <div class="block">
+            <div class="blockTitle">探索大陆Z世代艺人</div>
+            <div class="xscrollframe">
+                <div class="xscrollcontent" name="MainlandZAuthor"></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="/js/utils.js" type="text/javascript"></script>
+<script src="/js/navi.js" type="text/javascript"></script>
+<script src="/js/mininowplaying.js" type="text/javascript"></script>
+<script src="/js/common.js" type="text/javascript"></script>
+<script src="/js/extension.js" type="text/javascript"></script>
+<script>
+    naviInit();
+    titleBarInit();
+    selectNavi("listenNow");
+</script>
+<script src="/js/listenNow.js" type="text/javascript"></script>
+</html>
