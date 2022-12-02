@@ -5,9 +5,11 @@ function loadExtensionOptions() {
     };
     try {
         let settingsStr = localStorage.getItem("settings");
-        settings = JSON.parse(settingsStr);
-        document.getElementById('appearance_blur').checked = settings["appearance_blur"];
-        document.getElementById('allow_select').checked = settings["allow_select"];
+        if (settingsStr) {
+            settings = JSON.parse(settingsStr);
+            document.getElementById('appearance_blur').checked = settings["appearance_blur"];
+            document.getElementById('allow_select').checked = settings["allow_select"];
+        }
     }
     catch {
 
