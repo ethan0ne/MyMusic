@@ -1,6 +1,6 @@
 function loadAlbumInfoData() {
     let dataArea = document.getElementById("albumSongs");
-    ajaxGet("/data/albuminfo.json", null, true, function (json) {
+    ajaxGet("data/albuminfo.json", null, true, function (json) {
         for (let i = 0; i < document.getElementsByName("albumName").length; i++) {
             document.getElementsByName("albumName")[i].innerHTML = json.albumInfo.name;
         }

@@ -24,7 +24,7 @@ function showLoginWindow() {
                 <button class="btn" id="closeLoginWindowBtn" ><span class="iconfont icon-guanbi"></span></button>
             </div>
             <div class="titleBarText">登录</div>
-            <iframe class="windowContentIframe" src="/login.html" id="userLoginContent" width="100%">
+            <iframe class="windowContentIframe" src="login.html" id="userLoginContent" width="100%">
                 
             </iframe>
         </div>
@@ -73,7 +73,7 @@ function showSettingsWindow() {
                 <button class="btn" id="closeSettingsWindowBtn" ><span class="iconfont icon-guanbi"></span></button>
             </div>
             <div class="titleBarText">设置</div>
-            <iframe class="windowContentIframe" src="/settings.html" id="settingsContent" width="100%">
+            <iframe class="windowContentIframe" src="settings.html" id="settingsContent" width="100%">
                 
             </iframe>
         </div>

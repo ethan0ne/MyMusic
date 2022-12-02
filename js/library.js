@@ -1,6 +1,6 @@
 function loadLibraryData() {
     let dataArea = document.getElementsByName("library");
-    ajaxGet("/data/library.json", null, true, function (json) {
+    ajaxGet("data/library.json", null, true, function (json) {
         let content = "";
         for (var i = 0; i < json.length; i++) {
             let name = json[i].name;

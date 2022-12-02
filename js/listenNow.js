@@ -1,6 +1,6 @@
 function loadForYou() {
     let dataArea = document.getElementsByName("foryou");
-    ajaxGet("/data/listenNow_foryou.json", null, true, function (json) {
+    ajaxGet("data/listenNow_foryou.json", null, true, function (json) {
         let content = "";
         for (var i = 0; i < json.length; i++) {
             let name = json[i].name;
@@ -20,7 +20,7 @@ function loadForYou() {
 
 function loadSpatialAudioCPop() {
     let dataArea = document.getElementsByName("SpatialAudioCPop");
-    ajaxGet("/data/listenNow_SpatialAudioCPop.json", null, true, function (json) {
+    ajaxGet("data/listenNow_SpatialAudioCPop.json", null, true, function (json) {
         let content = "";
         for (var i = 0; i < json.length; i++) {
             let name = json[i].name;
@@ -42,7 +42,7 @@ function loadSpatialAudioCPop() {
 
 function loadMainlandZAuthor() {
     let dataArea = document.getElementsByName("MainlandZAuthor");
-    ajaxGet("/data/listenNow_MainlandZAuthor.json", null, true, function (json) {
+    ajaxGet("data/listenNow_MainlandZAuthor.json", null, true, function (json) {
         let content = "";
         for (var i = 0; i < json.length; i++) {
             let name = json[i].name;

@@ -28,7 +28,7 @@ function doSearch (search) {
 }
 
 function loadSearchData () {
-    ajaxGet("/data/search_allData.json", null, true, function (json) {
+    ajaxGet("data/search_allData.json", null, true, function (json) {
         datas = json;
         UILoadData(datas);
     });
@@ -36,7 +36,7 @@ function loadSearchData () {
 
 function initSearchPlaceholder () {
     let dataArea = document.getElementById("search");
-    ajaxGet("/data/search_placeholder.json", null, true, function (json) {
+    ajaxGet("data/search_placeholder.json", null, true, function (json) {
         placeholderDatas = json;
         dataArea.setAttribute("placeholder", "你可能感兴趣：" + placeholderDatas[Math.floor(Math.random() * placeholderDatas.length)]);
         setInterval(function () {

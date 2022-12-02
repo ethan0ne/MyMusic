@@ -3,7 +3,7 @@ let miniNowPlaying_frame = `
         <div class="left">
             <div class="songImg"></div>
             <div class="songtitle">Anti-Hero</div>
-            <audio src="/data/music/Anti_Hero.mp3" id="mini_nowplaying_player" preload></audio>
+            <audio src="data/music/Anti_Hero.mp3" id="mini_nowplaying_player" preload></audio>
         </div>
         <div class="right">
             <button class="button button_large" name="mini_nowplaying_play"><span class="iconfont icon-playfill" id="mini_nowplaying_play_icon"></span></button>
