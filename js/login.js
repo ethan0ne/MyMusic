@@ -16,7 +16,7 @@ function login(e) {
         document.getElementById('password').focus();
         return;
     }
-    ajaxPost("http://demo.ethan0ne.cn/server/", {
+    ajaxPost("https://demo.ethan0ne.cn/server/", {
         userid: userid,
         password: pwd
     }, true, function (res) {
