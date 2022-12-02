@@ -9,7 +9,7 @@ function getElementByDataTag(attribute, value) {
 }
 
 function goIndex(e) {
-    window.location.href = '/catalog.html';
+    window.location.href = 'catalog.html';
     e.stopPropagation();
 }
 
