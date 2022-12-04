@@ -14,7 +14,7 @@ function userLogin(e) {
 
 function showLoginWindow() {
     if (document.body.offsetWidth < 780) {
-        window.location.href = '/login.html';
+        window.location.href = 'login.html';
         return;
     }
     let content = `
