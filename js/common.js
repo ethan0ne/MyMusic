@@ -63,7 +63,7 @@ function goSettings(e) {
 
 function showSettingsWindow() {
     if (document.body.offsetWidth < 780) {
-        window.location.href = '/settings.html';
+        window.location.href = 'settings.html';
         return;
     }
     let content = `
